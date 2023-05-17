@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    src: url(./fonts/SF-Pro-Display-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+}
+::placeholder{
+    font-size: 14px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #F0F2F5; 
+    height: 720px;
+    align-items: center;
+}
+
+.login-bar{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 10px;
+    border-radius: 3%;
+    margin-bottom: 25px;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    box-shadow: 1px 1px 5px 0px rgba(85, 84, 84, 0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(109, 109, 109, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(102, 102, 102, 0.75);
+
+}
+.logo{
+    height: 150px;
+    width: auto;
+}
+
+.text-box{
+    width: 550px;
+    font-size: 30px;
+    
+}
+#login{
+    width: 325px;
+    height: 50px;
+    border: 0.1px #DDDFE2;
+    background-color: #1877F2;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight:bold;
+}
+
+#id_password, #email{
+    margin-bottom: 20px;
+    border: 0.1px solid #DDDFE2;
+    border-radius: 5px;
+    width: 325px;
+    height: 50px;
+    background-color: white;
+}
+
+#email{
+    margin-left: 5px;
+}
+
+#create-page{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#create-page:hover{
+    text-decoration:underline;
+}
+
+#new-account{
+    background-color: #42B72A;
+    border-radius: 5px;
+    border: 0.1px solid #DDDFE2;
+    margin-top: 15px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    
+}
+
+#fp{
+    text-decoration:none;
+    color: #1877F2;
+   
+}
+#fp:hover{
+    text-decoration: underline;
+}
+
+.input-box{
+    margin-bottom:20px;
+}
+button{
+    cursor: pointer;
+}
+
+.left-side, .right-side{
+    padding: 125px;
+}
+
+.right-side{
+    margin-right:550px ;
+}
+
+.left-side{
+    margin-left:200px ;
+    margin-bottom: 150px;
+}
+
+.footer{
+   background-color: white;
+   height: 310px; 
+   width: 1000px;
+   margin-left: 450px;
+   margin-top: 20px;
+   
+}
+
+.footer a{
+    color:grey;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 7px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+.langs{
+    margin-bottom: 7px;
+}
+.apps{
+    border-top: 1px solid  #DDDFE2; 
+}
+.apps a{
+    margin-right: 13px;
+} 
